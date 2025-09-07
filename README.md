@@ -35,4 +35,8 @@ cd amigo_secreto-main
 # Ejecutar
 Ejecuta el file index.html
 
+# ve a la barra de texto y agrega tus amigos
+
+# luego da click en sortear amigo
+
 
