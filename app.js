@@ -9,7 +9,7 @@ function agregarAmigo() {
     alert("Por favor, inserte un nombre.");
   } else {
     amigos.push(barraTexto.value);
-    console.log(amigos);
+  
     barraTexto.value = "";
 
     let listaHTML = document.querySelector("#listaAmigos");
@@ -26,8 +26,7 @@ function agregarAmigo() {
 function sortearAmigo() {
   if (amigos.length != 0) {
     let amigo = Math.floor(Math.random() * amigos.length);
-    console.log(amigo);
-    console.log(amigos)
+    
 //retira la lista de amigos en la pantalla
     document.querySelector("#listaAmigos").innerHTML = "";
     document.getElementById("resultado").innerHTML = `El amigo secreto sorteado es:${amigos[amigo]}`;
