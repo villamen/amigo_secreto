@@ -39,4 +39,12 @@ Ejecuta el file index.html
 
 # luego da click en sortear amigo
 
+Autor
+
+Luis Villamizar
+
+GitHub: @villamen
+
+
+
 
