@@ -27,12 +27,15 @@ function sortearAmigo() {
   if (amigos.length != 0) {
     let amigo = Math.floor(Math.random() * amigos.length);
     console.log(amigo);
-
+    console.log(amigos)
+//retira la lista de amigos en la pantalla
     document.querySelector("#listaAmigos").innerHTML = "";
     document.getElementById("resultado").innerHTML = `El amigo secreto sorteado es:${amigos[amigo]}`;
-    amigos.pop()
+    amigos.splice(amigo, 1)
   }
+  
   else{
-    console.log("No hay valores agregados")
+    document.getElementById("resultado").innerHTML =""
+    alert("No hay amigos agregados ")
   }
 }
